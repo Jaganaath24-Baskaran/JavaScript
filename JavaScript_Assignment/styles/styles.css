@@ -1,0 +1,14 @@
+
+#text1{
+    left: 33px;
+    
+}
+#text2{
+    position: absolute;
+    margin-right: 3rem;
+
+}
+#submit{
+    margin-bottom: 3rem;
+    right: 10rem;
+}

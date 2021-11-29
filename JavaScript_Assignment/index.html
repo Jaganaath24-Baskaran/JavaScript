@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Submit your Application for .NET developer(Fresher) </title>
+        <script type = "text/javascript" src="script/script.js"></script>
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body>
+        <center><h1>Submit your application</h1> </center>
+        <center><h2>for .NET developer(Fresher)</h2></center>
+        <h3>Personal Information</h3>
+        <form onsubmit="return validate()"> <!--action="Untitled-1.html"-->
+            <p>Name as per ID proof*</p>
+            <input onclick="" id="text1" placeholder="UserName" type="text"/>
+            <label id="user1" style="color: red; visibility: hidden;">Invalid Username</label>
+
+            
+            <p>Father's Name*</p>
+            <input id="text2" placeholder="Father's Name" type="text"/>
+            <label id="user2" style="color: red; visibility: hidden;">Invalid Father's Name</label>
+
+            <p>Email*</p>
+            <input id="text3" placeholder="Email" type="text"/>
+            <label id="user3" style="color: red; visibility: hidden;">Invalid Email</label>
+
+            <p>Date Of Birth*</p>
+            <input id="text4" placeholder="DOB" type="date"/>
+            <label id="user4" style="color: red; visibility: hidden;">Invalid DOB</label>
+
+            <p>Mobile Number*</p>
+            <input id="text5" placeholder="Mobile Number" type="number"/>
+            <label id="user5" style="color: red; visibility: hidden;">Invalid Mobile Number</label>
+
+            <p>Current Address*</p> 
+            <input id="text6" placeholder="Address line 1" type="text"/>
+            <label id="user6" style="color: red; visibility: hidden;">Invalid Address line 1</label>
+            <input id="text7" placeholder="Address line 2" type="text"/>
+            <label id="user7" style="color: red; visibility: hidden;">Invalid Address line 2</label>
+            <input id="text8" placeholder="City" type="text"/>
+            <label id="user8" style="color: red; visibility: hidden;">Invalid City</label>
+            <!--<input id="text7" placeholder="State" type="text"/>-->
+            <select id="text9" >
+                <option value="Tamilnadu">Tamilnadu</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Karnataka">Karnataka</option>
+            </select>
+            <label id="user9" style="color: red; visibility: hidden;">Invalid State</label>
+            <input id="text10" placeholder="Zipcode" type="text"/>
+            <label id="user10" style="color: red; visibility: hidden;">Invalid Zipcode</label>
+
+            <p>Permanent Address* <input type="checkbox" name="Same as Current Address" value="Same as Current Address">Same as Current Address</p>
+            <input id="text11" placeholder="Address line 1" type="text"/>
+            <label id="user11" style="color: red; visibility: hidden;">Invalid Address line 1</label>
+            <input id="text12" placeholder="Address line 2" type="text"/>
+            <label id="user12" style="color: red; visibility: hidden;">Invalid Address line 2</label>
+            <input id="text13" placeholder="City" type="text"/>
+            <label id="user13" style="color: red; visibility: hidden;">Invalid City</label>
+            <!--<input id="text7" placeholder="State" type="text"/>-->
+            <select id="text14" >
+                <option value="Tamilnadu">Tamilnadu</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Karnataka">Karnataka</option>
+            </select>
+            <label id="user14" style="color: red; visibility: hidden;">Invalid State</label>
+            <input id="text15" placeholder="Zipcode" type="text"/>
+            <label id="user15" style="color: red; visibility: hidden;">Invalid Zipcode</label>
+
+            <p>Upload profile photo * (JPG/PNG format only)</p>
+            <p>Please Upload a photo of yourself. Your face should be clearly visible. Make sure the image size does not exceed 500kb.</p>
+
+            <input type="file" name="photo"><br><br>
+
+            
+            <button onclick="validate()" type="button">Submit</button>
+
+        </form>
+    </body>
+</html>
